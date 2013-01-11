@@ -84,6 +84,9 @@ config EVENT_POWER_TRACING_DEPRECATED
 	  and will vanish after 5 kernel iterations,
 	  namely 3.1.
 
+config GPU_TRACEPOINTS
+	bool
+
 config CONTEXT_SWITCH_TRACER
 	bool
 
